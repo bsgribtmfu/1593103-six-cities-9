@@ -1,9 +1,12 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/app/app';
 
+const amount = 342;
+const locations: string[] = ['Paris', 'Cologne', 'Brussels', 'Amsterdam', 'Hamburg', 'Dusseldorf'];
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App
+    amount={amount}
+    locations={locations}
+  />,
   document.getElementById('root'));
