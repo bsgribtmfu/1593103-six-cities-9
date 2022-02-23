@@ -1,7 +1,7 @@
 import Header from '../header/header';
 import ReviesForm from '../reviews-form/reviews-form';
 
-function PageProperty(): JSX.Element {
+function Offer(): JSX.Element {
   return (
     <div className="page">
 
@@ -270,4 +270,4 @@ function PageProperty(): JSX.Element {
   );
 }
 
-export default PageProperty;
+export default Offer;
